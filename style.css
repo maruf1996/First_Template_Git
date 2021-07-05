@@ -1,0 +1,42 @@
+* {box-sizing: border-box;}
+body{background-image: url(templatemo-header-8.jpg);font-family: sans-serif; background-repeat: no-repeat;background-size: cover;}
+.container {width:1340px; height:535px}
+
+.First_part{margin:100px 80px;}
+.First_part a {text-decoration: none; font-size: 70px; color:aliceblue;letter-spacing:5px;}
+.First_part a span {color:greenyellow;}
+.First_part p {color:rgba(253, 242, 222, 0.789);font-size: 20px; margin-left:20px;}
+
+.second_part{margin-left:59%; margin-top:25%;}
+.second_part ul {list-style: none;}
+.second_part ul li {display: inline-block;;}
+.second_part ul li a {text-decoration: none; background-color: rgba(255, 255, 255, 0.926); color:teal; padding:15px;}
+.second_part ul li:hover a {color:mediumvioletred; }
+
+
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .First_part a {
+        text-decoration: none;
+        font-size: 70px;
+        color: aliceblue;
+        letter-spacing: 9px;
+    }
+    .First_part p {
+        color: rgba(253, 242, 222, 0.789);
+        font-size: 24px;
+        margin-left: -1px;
+    }
+    .second_part {
+        margin-left: 10%;
+        margin-top: 21%;
+    }
+    .second_part ul li a {
+        text-decoration: none;
+        background-color: rgba(255, 255, 255, 0.926);
+        color: teal;
+        padding: 25px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+  }
